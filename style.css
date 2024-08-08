@@ -1,0 +1,171 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+
+html{
+    background-color: rgb(20, 22, 22);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 90vw;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin:5vh;
+    padding:0 2rem;
+    height: 90vh;
+
+    color: white;
+
+}
+
+.container *{
+    width: 70vw;
+}
+
+
+#progress{
+    width: 40vw;
+}
+
+
+.quiz-box  h1{
+
+    width: 70vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    
+    
+    background-color:skyblue;
+}
+
+
+
+.quiz-header{
+    font-weight: bold;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+#countdown{
+    display: flex;
+    justify-content: center;
+    height:5vh;
+    padding: 5px;
+    color:rgb(235, 235, 235);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: rgb(230, 76, 4);
+    width: 20vw;
+}
+
+#question{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+
+
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    border:2px solid skyblue;
+
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: rgb(63, 238, 215);
+}
+
+#score{
+    color: rgb(191, 199, 206);
+
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3em;
+    
+}
+
+.end  h1{
+    
+    
+    width: 67vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    background-color:skyblue;
+
+}
+
+.end{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.quiz-repeat{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.quiz-repeat a:hover{
+    background-image: linear-gradient(red,black);
+}
+
+
+.quiz-repeat a{
+    font-size: 1.6rem;
+    font-weight: 650;
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: all .3sec;
+}
+
+
